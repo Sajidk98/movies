@@ -49,7 +49,14 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-mongodb</artifactId>
 		</dependency>
-	</dependencies>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<scope>annotationProcessor</scope>
+		</dependency>
+			
+
+		</dependencies>
 
 	<build>
 		<plugins>
@@ -59,5 +66,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>
