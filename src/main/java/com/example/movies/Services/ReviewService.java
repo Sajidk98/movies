@@ -1,10 +1,14 @@
-package com.example.movies;
+package com.example.movies.Services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Update;
 import org.springframework.stereotype.Service;
+
+import com.example.movies.Repositories.ReviewRepository;
+import com.example.movies.modals.Movie;
+import com.example.movies.modals.Review;
 
 @Service
 public class ReviewService {

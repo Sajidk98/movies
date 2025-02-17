@@ -1,4 +1,4 @@
-package com.example.movies;
+package com.example.movies.modals;
 
 import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;

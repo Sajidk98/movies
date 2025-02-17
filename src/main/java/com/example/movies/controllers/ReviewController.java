@@ -1,7 +1,10 @@
-package com.example.movies;
+package com.example.movies.controllers;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.example.movies.Services.ReviewService;
+import com.example.movies.modals.Review;
 
 import java.util.Map;
 
