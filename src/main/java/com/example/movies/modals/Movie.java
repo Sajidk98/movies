@@ -1,4 +1,4 @@
-package com.example.movies;
+package com.example.movies.modals;
 
 import java.util.List;
 
